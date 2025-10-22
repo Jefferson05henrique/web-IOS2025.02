@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap');
+
+/* Para usar uma fonte da internet podemos usar o @import do site especificado.
+No exemplo abaixo utilizamos o site Google fonts para importar e utilizar uma nova
+font-family */
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 65px;
+    letter-spacing: 10px;
+    text-align: center;
+    /* text-shadow:
+     1° valor deslocamento horizontal
+     2° valor deslocamento vertical
+     3° valor desfoque
+     4° cor da sombra*/
+    text-shadow: 10px -20px 5px chocolate;
+}
+
+p {
+    font-family: "Bitcount Grid Single", system-ui;
+    text-align: center;
+    width: 600px;
+}

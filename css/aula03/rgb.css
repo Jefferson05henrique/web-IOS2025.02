@@ -1,0 +1,27 @@
+body {
+    background-image: url("https://assets.portalleodias.com/2024/04/DAVI-1.png");
+    background-size: cover;
+}
+
+#red {
+    color: rgb(230, 18, 18);
+}
+
+#green {
+    color: green;
+}
+
+#blue {
+    color: blue;
+}
+
+h2 {
+    color: rgba(90, 25, 255, 0.329);
+}
+
+p {
+    /* HEX ou código hexadecimal representa uma cor especifica.
+    Esse código  é como voce recebera de seu designer as cores 
+    para construir os sites de seus clientes. */
+    color: #fc5c05;
+}
