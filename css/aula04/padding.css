@@ -1,0 +1,56 @@
+h1 {
+    background-color: red;
+    border: 10px solid greenyellow;
+    margin: 0;
+    padding-left: 500px;
+    padding-bottom: 20px;
+}
+
+.quadrado {
+    width: 400px;
+    height: 400px;
+    background-image: url(https://i.pinimg.com/474x/7d/78/5a/7d785ab2ddeb49f66484d0fe0b2e9886.jpg);
+    background-size: cover;
+    border: 3px solid black;
+    /* Margin é o espaço de fora de um elemento, e é o que faz com que esse eleemneto se afaste
+    dos outros. uma margin 0 que dizer que o h1 vai grudar nos outros elementos.  */
+    margin: 10px;
+}
+.quadrado1 {
+    width: 400px;
+    height: 400px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5ldRndjgTpGPlpHKiGAd_r2L32kO0pw0-HQ&s);
+    background-size: cover;
+    border: 3px solid black;
+    margin-left: 100px;
+}
+.quadrado2 {
+    width: 400px;
+    height: 400px;
+    background-image: url(https://content.imageresizer.com/images/memes/emoji-typing-meme-4.jpg);
+    background-size: cover;
+    border: 3px solid black;
+    /* podemos colocar margem em apenas um lado especifico utilizando os comandos 
+    de margin: 
+    margin-top (cima)
+    margin-right (direita)
+    margin-bottom (baixo)
+    margin-left (esquerda) */
+    margin: 10px;
+}
+
+#segunda {
+    padding-right: 100px;
+}
+
+.quadrado3 {
+    width: 400px;
+    height: 400px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1OIdWjyZG2lmO6_Bs8rqh-HOGPp6geKbQlw&s);
+    background-size: cover;
+    border: 3px solid black;
+    margin: 10px;
+}
+
+/* PADDING: é o espaço interno que separa o conteúdo da borda */
+/* MARGIN: é o espaço externo que separa os conteúdos (caixas) */
