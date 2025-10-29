@@ -1,0 +1,18 @@
+
+body{
+    background-color: blue;
+}
+
+#conteiner {
+    background-color: greenyellow;
+    display: flex;
+    /* Justify alinha os itens na horizontal (esquerda para direita) */
+    justify-content: space-around
+}
+
+.quadrado {
+    height: 200px;
+    width: 200px;
+    background-color: chocolate;
+    border: 5px black solid;
+}

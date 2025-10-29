@@ -1,0 +1,13 @@
+button {
+    background-color: coral;
+    border-radius: 20px;
+}
+
+button:hover {
+    color: aliceblue;
+}
+
+.carousel-inner {
+    height: 800px;
+    width: 800px;
+}
