@@ -1,0 +1,43 @@
+:root {
+    --cor-principal: orange;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.quadrado {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(45deg, #ff7f50, #1e90ff);
+}
+
+.quadrado:hover {
+    width: 320px;
+    height: 320px;
+    background: linear-gradient(45deg, #00ff7f, #ff1493);
+}
+
+a:link {
+    color: #ff1493;
+    font-size: 50px;
+}
+
+h1 {
+    color: var(--cor-principal);
+}
+
+span {
+    background: var(--cor-principal);
+}
+
+p:first-child {
+    color: var(--cor-principal);
+}
+
+#shrek::first-letter {
+    font-size: 50px;
+}
